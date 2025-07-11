@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color: green;
+    text-decoration: 2px underline tomato;
+    text-underline-offset: 7px;
+    margin-bottom: 50px;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+div{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: tomato;
+}
+a:visited{
+    color: green;
+}
+@media (max-width:1271px){
+    div{
+        width: 40%;
+    }
+    
+}
+@media (max-width:1241px){
+    div{
+        width: 50%;
+    }
+    
+}
+@media (max-width:833px){
+    div{
+        width: 65%;
+    }
+    
+}
+@media (max-width:641px){
+    div{
+        width: 75%;
+    }
+    
+}
+@media (max-width:558px){
+    div{
+        width: 85%;
+    }
+    
+}
+@media (max-width:491px){
+    body{
+        width: 100%;
+        padding-left: 10px;
+    }
+    div{
+        width: 100%;
+    }
+    
+}
